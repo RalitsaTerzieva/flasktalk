@@ -1,0 +1,50 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Flask specific
+instance/
+*.sqlite3
+*.db
+*.log
+
+# General files and folders to ignore
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Testing
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+data.sqlite
