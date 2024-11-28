@@ -12,7 +12,7 @@ Ensure you have Python (3.7 or higher) and `pip` installed on your machine.
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/pawadopt.git
+   git clone https://github.com/RalitsaTerzieva/flasktalk
    cd pawadopt
 
 2. Create and activate a virtual environment:
