@@ -13,7 +13,7 @@ Ensure you have Python (3.7 or higher) and `pip` installed on your machine.
 1. Clone the repository:
    ```bash
    git clone https://github.com/RalitsaTerzieva/flasktalk
-   cd pawadopt
+   cd flasktalk
 
 2. Create and activate a virtual environment:
    ```bash
