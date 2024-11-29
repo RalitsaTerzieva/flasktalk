@@ -17,11 +17,11 @@
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="{{url_for('core.index')}}">Home</a>
               <a class="nav-link" href="{{url_for('core.info')}}">About</a>
-              <a class="nav-link" href="">Logout</a>
-              <a class="nav-link" href="">Account</a>
+              <a class="nav-link" href="{{url_for('users.logout')}}">Logout</a>
+              <a class="nav-link" href="{{url_for('users.account')}}">Account</a>
               <a class="nav-link" href="">Create Post</a>
-              <a class="nav-link" href="">Login</a>
-              <a class="nav-link" href="">Register</a>
+              <a class="nav-link" href="{{url_for('users.login')}}">Login</a>
+              <a class="nav-link" href="{{url_for('users.register')}}">Register</a>
             </div>
           </div>
         </div>
